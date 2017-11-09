@@ -1,8 +1,7 @@
-<%= form_tag (tweets_path) do%>
+<%= form_tag do%>
 
-<%= label_tag 'tweet', 'Tweet:'%>
-<%= text_field_tag 'tweet'%>
 
-<%=submit_tag 'Tweeter'%>
+<%= text_field_tag :tweet%>
 
+<%=submit_tag 'Twitter!'%>
 <%end%>
